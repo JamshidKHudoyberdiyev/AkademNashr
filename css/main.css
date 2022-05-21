@@ -1,0 +1,161 @@
+
+
+
+.nav-list-item,.social-list-item,.footer-list-item{
+    list-style: none;
+}
+
+
+@font-face {
+    font-family: Roboto;
+    src: url("/fonts/Roboto/Roboto-Bold.ttf");
+}
+html{
+    font-family: Roboto;
+}
+.nav-link{
+    text-transform: uppercase;
+    font-family:Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15px;
+    text-decoration: none;
+    color: black;
+}
+.main-link{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+    font-style: normal;
+    color: #fff;
+    background-color: #FF7500;
+}
+
+
+/*main-section */
+
+
+/****** hero *****/
+.hero{
+    background-color: #252420;
+    color: #fff;
+}
+
+.hero-content{
+    width: 390px;
+}
+
+.hero-img{
+    width: 510px;
+    height: 510px;
+}
+
+.orange-hr{
+    width: 80px;
+    height: 3px;
+    background-color: #FF7500;
+}
+.hero-title{
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    letter-spacing: 0.5;
+    line-height: 1.2;
+}
+.hero-info{
+   font-size: 16px;
+   line-height: 1.2;
+   font-weight: 4000;
+}
+
+/*!!!! Featurs ****/
+
+.features-title{
+    font-size: 72px;
+    font-family: Roboto;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.img-content{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 117, 0, 0.2);
+}
+
+.features-item-title{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.features-info{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+
+/*? ***sale****?*/
+
+.sale{
+    /* width: 1100px;
+    height: 505px; */
+    background-color: #252420;
+    color: #fff;
+}
+
+.sale-content{
+    width: 440px;
+}
+
+.sale-content-title{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.5px;
+}
+
+.sale-contete-info{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+.sale-img{
+    width: 440px;
+    height: 440px;
+}
+
+.social-list-item{
+    width: 24px;
+    height: 24px;
+}
+
+.site-footer{
+   background-color:rgba(248, 248, 248, 1)
+}
+
+
+.footer-link{
+    text-decoration: none;
+    font-weight:400;
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+}
+
+.site-footer-line{
+    background-color: rgba(37, 36, 32, 0.5);
+    height: 2px;
+    width: 1100px;
+}
+
+
