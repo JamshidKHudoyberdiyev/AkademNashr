@@ -13,6 +13,21 @@
 html{
     font-family: Roboto;
 }
+
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header-right{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+}
 .nav-link{
     text-transform: uppercase;
     font-family:Roboto;
@@ -41,6 +56,9 @@ html{
 .hero{
     background-color: #252420;
     color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .hero-content{
@@ -79,6 +97,15 @@ html{
     font-weight: 700;
 }
 
+.features-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fetures-list-item{
+    width: 340px;
+}
+
 .img-content{
     width: 100px;
     height: 100px;
@@ -108,6 +135,8 @@ html{
     height: 505px; */
     background-color: #252420;
     color: #fff;
+    display: flex;
+    justify-content: space-between;
 }
 
 .sale-content{
@@ -142,6 +171,13 @@ html{
 .site-footer{
    background-color:rgba(248, 248, 248, 1)
 }
+.site-footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+.social-list{
+    display: flex;
+}
 
 
 .footer-link{
@@ -152,6 +188,11 @@ html{
     color: black;
 }
 
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .site-footer-line{
     background-color: rgba(37, 36, 32, 0.5);
     height: 2px;
