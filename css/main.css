@@ -1,16 +1,18 @@
 
-
-
-.nav-list-item,.social-list-item,.footer-list-item{
-    list-style: none;
-}
-
-
 @font-face {
     font-family: Roboto;
     src: url("/fonts/Roboto/Roboto-Bold.ttf");
 }
-html{
+
+*:focus{
+    outline-offset: 4px;
+    outline: 3px dashed #FF7500; 
+}
+.nav-list-item,.social-list-item,.footer-list-item{
+    list-style: none;
+}
+
+body{
     font-family: Roboto;
 }
 
@@ -18,6 +20,20 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-top:F5px solid #ff7500;;
+    padding:16px 0;
+    border-top: 5px solid #ff7500;
+}
+.link-logo{
+    transition: opacity 0.5s ease;
+}
+
+.link-logo:hover{
+    opacity: 0.8;
+}
+
+.link-logo:active{
+    opacity: 0.6;
 }
 
 .site-header-right{
@@ -27,6 +43,7 @@ html{
 
 .nav-list{
     display: flex;
+    padding: 0;
 }
 .nav-link{
     text-transform: uppercase;
@@ -37,7 +54,16 @@ html{
     line-height: 15px;
     text-decoration: none;
     color: black;
+    transition: color 0.3s ease,opacity 0.2s ease;
 }
+
+.nav-link:hover{
+    color: #FF7500;
+}
+.nav-link:active{
+    opacity: 0.6;
+}
+
 .main-link{
     text-decoration: none;
     font-size: 13px;
@@ -46,6 +72,19 @@ html{
     font-style: normal;
     color: #fff;
     background-color: #FF7500;
+    transition: opactiy 0.5s ease;
+    padding: 12px 24px;
+    border-radius: 4px;
+    display: inline-block;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.main-link:hover{
+    opacity: 0.8;
+}
+.main-link:active{
+    opacity: 0.6;
 }
 
 
@@ -59,21 +98,25 @@ html{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 80px 0;
 }
 
 .hero-content{
     width: 390px;
+    padding: 80px 0;
 }
 
 .hero-img{
     width: 510px;
     height: 510px;
+    border-radius: 8px;
 }
 
 .orange-hr{
     width: 80px;
     height: 3px;
     background-color: #FF7500;
+    border: none;
 }
 .hero-title{
     font-family: Roboto;
@@ -89,6 +132,10 @@ html{
 }
 
 /*!!!! Featurs ****/
+
+.features{
+    padding: 210px 0;
+}
 
 .features-title{
     font-size: 72px;
@@ -110,6 +157,10 @@ html{
     width: 100px;
     height: 100px;
     background-color: rgba(255, 117, 0, 0.2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .features-item-title{
@@ -137,6 +188,8 @@ html{
     color: #fff;
     display: flex;
     justify-content: space-between;
+    border-radius: 12px;
+    /* padding: 120px 0 160px 0; */
 }
 
 .sale-content{
@@ -161,15 +214,18 @@ html{
 .sale-img{
     width: 440px;
     height: 440px;
+    border-radius: 12px;
 }
 
 .social-list-item{
     width: 24px;
     height: 24px;
+    padding: 0;
 }
 
 .site-footer{
-   background-color:rgba(248, 248, 248, 1)
+   background-color:rgba(248, 248, 248, 1);
+   padding: 56px 0;
 }
 .site-footer-top{
     display: flex;
@@ -178,7 +234,29 @@ html{
 .social-list{
     display: flex;
 }
+.social-link{
+    transition: color 0.3s ease, opacity 0.3s ease;
+}
 
+.social-list-item a{
+    color: #252420;
+}
+
+.social-list-item a :hover{
+    color: #FF7500;
+   
+}
+.social-link:active{
+    opacity: 0.6;
+}
+
+
+
+
+
+.site-footer-link-list{
+    padding:0;
+}
 
 .footer-link{
     text-decoration: none;
@@ -186,6 +264,14 @@ html{
     font-size: 16px;
     line-height: 19px;
     color: black;
+    transition: color 0.3s ease,opacity 0.3s ease;
+}
+
+.footer-link:hover{
+    color: #FF7500;
+}
+.footer-link:active {
+   opacity: 0.6;
 }
 
 .footer-links{
@@ -193,10 +279,15 @@ html{
     justify-content: space-between;
     align-items: center;
 }
+
+
 .site-footer-line{
     background-color: rgba(37, 36, 32, 0.5);
     height: 2px;
     width: 1100px;
+    border: 0;
 }
+
+
 
 
